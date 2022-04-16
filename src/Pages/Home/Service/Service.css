@@ -1,0 +1,12 @@
+.service{
+    padding-bottom: 10px;
+    border: 1px solid lightgrey ;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.button{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
