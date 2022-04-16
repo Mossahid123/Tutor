@@ -14,7 +14,7 @@ const Service = ({ service }) => {
             <h3>{name}</h3>
             <p>Price:{balance}</p>
             <p><small>{about.slice(0 ,100)}</small></p>
-            <button onClick={()=>nevigateToServiceDetail(id)} className='button btn btn-primary w-100'>Details</button>
+            <button style={{height:'50px'}} onClick={()=>nevigateToServiceDetail(id)} className='btn btn-primary w-100 position-absolute bottom-0 start-0'>Details</button>
         </div>
     );
 };
