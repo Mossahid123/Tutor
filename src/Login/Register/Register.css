@@ -1,0 +1,13 @@
+
+.register-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.form-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.form-container input{
+    display: block;
+    width: 100%;
+}
