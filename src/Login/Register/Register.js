@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import auth from '../../firebase.init';
 import './Register.css';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Register = () => {
+   
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
     const [
         createUserWithEmailAndPassword,
         user,error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth ,{sendEmailVerification:true});
 
     const navigate =useNavigate()
 
@@ -19,7 +20,7 @@ const Register = () => {
         return (<p>Error: {error.message}</p>);
     }
     if (user) {
-       navigate('/login')
+       navigate('/home')
     }
     return (
         <div className='mt-5 w-100 mx-auto'>

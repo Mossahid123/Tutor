@@ -6,6 +6,7 @@ const ServiceDetails = () => {
     return (
         <div>
             <h1>service details: {serviceId}</h1>
+            <h2>{}</h2>
             <div className='text-center'>
                 <Link to="/checkout">
                     <button className='btn btn-primary'>Proceed Cheackout</button>
