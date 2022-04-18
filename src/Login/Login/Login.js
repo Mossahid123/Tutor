@@ -1,4 +1,3 @@
-import { async } from '@firebase/util';
 import React, { useState } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
@@ -26,7 +25,7 @@ const Login = () => {
         return <p>Loading...</p>;
     }
     if (user) {
-        navigate('/services')
+        navigate('/home')
 
     }
     if (error) {
