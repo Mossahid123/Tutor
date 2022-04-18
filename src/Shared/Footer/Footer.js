@@ -12,7 +12,7 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
-        <div className='sticky-bottom'>
+        <div className='sticky-bottom footer'>
             <div className='bg-white footer-container'>
                 <div className='w-50 mx-auto pt-5'>
                     <div className=''>

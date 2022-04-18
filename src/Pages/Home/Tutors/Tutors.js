@@ -20,7 +20,7 @@ const tutors = [
 const Tutors = () => {
     return (
         <div className='mt-5' id='tutors'>
-            <h1 className='text-primary text-center'>Our Best Tutor</h1>
+            <h1 className='text-primary text-center'>Our Best Student</h1>
            <div className='tutor-cart mt-5 m-5'>
            {
                 tutors.map(tutor=><Tutor
