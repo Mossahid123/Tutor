@@ -14,7 +14,7 @@
 _  and i used react firebase hooks wow its amazing !! you will love it ❤
 -  and for the first time i have used custom hooks in any website.😍
 - this wed has super color combination.🎨
-- and i create a fancy dashboard.📊
+- and i create a fancy wab pages.
 - you can login this page then you will see the result 😍
 - this web has also 404 not found page.❌
 
