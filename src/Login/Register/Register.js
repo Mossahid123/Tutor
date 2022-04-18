@@ -17,7 +17,7 @@ const Register = () => {
     const navigate =useNavigate()
 
     if (error) {
-        return (<p>Error: {error.message}</p>);
+        return (<div><p>Error: {error.message}</p></div>);
     }
     if (user) {
        navigate('/home')

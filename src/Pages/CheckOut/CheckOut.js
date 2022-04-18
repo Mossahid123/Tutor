@@ -2,8 +2,15 @@ import React from 'react';
 
 const CheckOut = () => {
     return (
-        <div>
-                <h1>This is checkout</h1>
+        <div className='mt-5'>
+            <h1 className='text-center text-info'>Ops!!!
+            <p>1</p><br />
+            <p>1</p><br />
+            <p>1</p><br />
+            <p>1</p><br />
+            <p>1</p><br />
+            <p>1</p><br />
+            </h1>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const ServiceDetails = () => {
                 <h5>If you want to join you can click the check button</h5>
             </div>
             <div className='text-center'>
-                <Link to="/checkout">
+                <Link to='/checkout'>
                     <button className='btn btn-primary'>Cheackout</button>
                 </Link>
             </div>

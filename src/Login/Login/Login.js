@@ -22,7 +22,9 @@ const Login = () => {
     );
 
     if (loading) {
-        return <p>Loading...</p>;
+        return (<div>
+            <p>Loading...</p>;
+        </div>)
     }
     if (user) {
         navigate('/home')
