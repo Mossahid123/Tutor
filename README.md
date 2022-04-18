@@ -4,7 +4,7 @@
 
 
 ## 🔗 My Website Link
-[![Website](https://img.shields.io/badge/let's-go-000?style=for-the-badge&logo=&logoColor=white)](https://chic-marigold-ba0c5a.netlify.app/services)
+[![Website](https://img.shields.io/badge/let's-go-000?style=for-the-badge&logo=&logoColor=white)](https://chic-marigold-ba0c5a.netlify.app/)
   
 
 ## Features
